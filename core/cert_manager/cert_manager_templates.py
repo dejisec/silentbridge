@@ -1,4 +1,4 @@
-client_cnf =  '''
+client_cnf = """
     <meta http-equiv="refresh" content="2;url=http://example.com/" />
 
 [ ca ]
@@ -55,9 +55,9 @@ organizationName    = %s
 emailAddress        = %s
 commonName      = %s
 
-'''
+"""
 
-ca_cnf = '''
+ca_cnf = """
 
 [ ca ]
 default_ca      = CA_default
@@ -118,9 +118,9 @@ localityName        = %s
 organizationName    = %s
 emailAddress        = %s
 commonName      = %s
-'''
+"""
 
-server_cnf = '''
+server_cnf = """
 
 [ ca ]
 default_ca      = CA_default
@@ -176,4 +176,4 @@ organizationName    = %s
 emailAddress        = %s
 commonName      = %s
 
-'''
+"""

@@ -1,4 +1,4 @@
-upstream_connected = ''' 
+upstream_connected = """ 
   authenticator
        |
    ---------
@@ -6,9 +6,9 @@ upstream_connected = '''
    x       |
            |
    x       |
-   |       | '''
+   |       | """
 
-upstream_bypass = '''
+upstream_bypass = """
   authenticator
        |
    ---------
@@ -16,14 +16,14 @@ upstream_bypass = '''
    |       x
    |
    |       x
-   |       | '''
+   |       | """
 
-banner_center = '''   |     upstream
+banner_center = """   |     upstream
    |       |
    |    silentbridge
    |       |
-   |      phy '''
-phy_connected = '''   |       |
+   |      phy """
+phy_connected = """   |       |
    x       |
            |
    x       |
@@ -31,9 +31,9 @@ phy_connected = '''   |       |
    ---------
        |
    supplicant
-'''
+"""
 
-phy_bypass = '''   |       |
+phy_bypass = """   |       |
    |       x
    |
    |       x
@@ -41,4 +41,4 @@ phy_bypass = '''   |       |
    ---------
        |
    supplicant
-'''
+"""
